@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://vords.pp.ua/forum/logonofo.png" type="image/x-icon">
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://kit.fontawesome.com/814d0643d0.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="coffee.coffee"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div id="openMenu" onclick="openMenu();" class="fa-solid fa-bars"></div>
+        <div id="menu">
+            <button onclick="wr();">Вывод чисел</button>
+            <button onclick="sw();">Вывод switch</button>
+            <button onclick="prs('123');">ParseInt</button>
+            <button onclick="checkUp();">CheckUp</button>
+        </div>
+    </header>
+    <br>
+    <br>
+    <!-- spisok -->
+    <div class="spisok">
+        <input type="text" id="inf">
+        <button onclick="spisok();">Создать</button>
+        <br>
+        <ul id="ol"></ul>
+    </div>
+    <div class="center_ad">
+        <div class="ad">
+            <button id="closeAd" class="fa-solid fa-x"></button>
+            <a href="https://learn.javascript.ru/keys-values-entries">
+                <img src="vulkan-bonus_7.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
